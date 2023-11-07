@@ -2,14 +2,14 @@ package ejercicios.bucles;
 
 import java.util.Scanner;
 
-public class Ejercicio03 {
+public class Ejercicio07 {
 
 	public static void main(String[] args) {
 		//Variable para guardar el numero
 		int num;
 		
 		//Variable para guardar las líneas
-		String espacio = "", asterisco = "";
+		String linea="";
 		
 		//Scanner para leer del teclado
 		Scanner sc = new Scanner(System.in);
@@ -20,14 +20,17 @@ public class Ejercicio03 {
 		//Leo del teclado
 		num=sc.nextInt();
 		
-		//Muestro la pirámide
+		//Muestro la pirámide de números
 		for(int i=1; i<=num; i++) {
-			for(int j=num; j>=i; j--) {
-				espacio=espacio+" ";
+			int j;
+			for(j=1; j<=i; j++) {
+				linea+=j;
 			}
-			asterisco=asterisco+"* ";
-			System.out.println(espacio+asterisco);
-			espacio="";
+			for(int k=j-2; k>=1;k--) {
+				linea+=k;
+			}
+			System.out.println(linea);
+			linea="";
 		}
 		
 		//Cierro el scanner
