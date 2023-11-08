@@ -3,7 +3,9 @@ package ejercicios.condicionales;
 import java.util.Scanner;
 
 public class Ejercicio08 {
-
+	/*
+	 * 
+	 */
 	public static void main(String args[]) {
 		//Variable para el precio, para el descuento y para el precio por kilómetro
 		double precio, descuento = 0.7, kilometraje = 2.5;

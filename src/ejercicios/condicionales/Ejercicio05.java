@@ -3,7 +3,9 @@ package ejercicios.condicionales;
 import java.util.Scanner;
 
 public class Ejercicio05 {
-
+	/*
+	 * 
+	 */
 	public static void main(String[] args) {
 		//Variable para número y valor absoluto
 		int num, absoluto;

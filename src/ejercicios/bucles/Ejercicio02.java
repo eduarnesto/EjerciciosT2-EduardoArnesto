@@ -1,21 +1,31 @@
 package ejercicios.bucles;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio02 {
-
+	/*
+	 * 
+	 */
 	public static void main(String[] args) {
 		//Variable para guardar el numero y los numeros primos
-		int num, primos=0;
+		int num = 0, primos=0;
 		
 		//Scanner para leer del teclado
 		Scanner sc = new Scanner(System.in);
 		
-		//Pregunto por un numero
-		System.out.println("Introduzca un número");
-		
-		//Leo del teclado
-		num=sc.nextInt();
+		do {
+			try {
+				//Pregunto por un numero
+				System.out.println("Introduzca un número");
+				
+				//Leo del teclado
+				num=sc.nextInt();
+			} catch (InputMismatchException e) {
+				System.out.println("Valor introudcido no válido");
+				sc.next();
+			}
+		} while(num<1);
 		
 		//Calculo el numero de primos entre 1 y el numero en cuestion
 		for(int i=2; i<num; i++) {

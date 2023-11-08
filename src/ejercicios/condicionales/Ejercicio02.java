@@ -3,6 +3,9 @@ package ejercicios.condicionales;
 import java.util.Scanner;
 
 public class Ejercicio02 {
+	/*
+	 * 
+	 */
 
 		public static void main(String[] args) {
 			//Variable para numero de DNI

@@ -4,7 +4,9 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Ejercicio06 {
-
+	/*
+	 * 
+	 */
 	public static void main(String[] args) {
 		//Variable para la respuesta
 		int num1, num2, res;

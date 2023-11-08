@@ -3,7 +3,9 @@ package ejercicios.condicionales;
 import java.util.Scanner;
 
 public class Ejercicio03 {
-
+	/*
+	 * 
+	 */
 	public static void main(String[] args) {
 		//Variables para cantidad de comida, de animales y kilos de comida que consume al día
 		int comida, animales, consumo, consumoTotal;

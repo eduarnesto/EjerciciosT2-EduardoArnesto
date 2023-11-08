@@ -1,12 +1,15 @@
 package ejercicios.bucles;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio05 {
-
+	/*
+	 * 
+	 */
 	public static void main(String[] args) {
 		//Variable para los dos número y el minimo comun multiplo
-		int num1, num2, mcm=0;
+		int num1 = 0, num2 = 0, mcm=0;
 		
 		//Variable auxiliar para que el numero 1 sea el mayor numero
 		int aux;
@@ -14,17 +17,31 @@ public class Ejercicio05 {
 		//Scanner para leer del teclado
 		Scanner sc = new Scanner(System.in);
 		
-		//Pregunto por el primer número
-		System.out.println("Introduzca el primer número");
-		
-		//Leo del teclado
-		num1=sc.nextInt();
-		
-		//Pregunto por el segundo número
-		System.out.println("Introduzca el segundo número");
-		
-		//Leo del teclado
-		num2=sc.nextInt();
+		do {
+			try {
+				//Pregunto por el primer número
+				System.out.println("Introduzca el primer número");
+				
+				//Leo del teclado
+				num1=sc.nextInt();
+			} catch (InputMismatchException e) {
+				System.out.println("Valor introudcido no válido");
+				sc.next();
+			}
+		} while (num1<=0);
+				
+		do {
+			try {
+				//Pregunto por el segundo número
+				System.out.println("Introduzca el segundo número");
+				
+				//Leo del teclado
+				num2=sc.nextInt();
+			} catch (InputMismatchException e) {
+				System.out.println("Valor introudcido no válido");
+				sc.next();
+			}
+		} while (num2<=0);
 		
 		//Hago que el num1 sea el mayor número
 		if(num2>num1) {

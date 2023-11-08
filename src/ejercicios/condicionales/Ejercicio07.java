@@ -3,7 +3,9 @@ package ejercicios.condicionales;
 import java.util.Scanner;
 
 public class Ejercicio07 {
-
+	/*
+	 * 
+	 */
 	public static void main(String[] args) {
 		//Variable para los horas, minutos y segundos
 		int horas, min, segundos;

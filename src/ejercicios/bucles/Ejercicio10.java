@@ -1,12 +1,15 @@
 package ejercicios.bucles;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio10 {
-
+	/*
+	 * 
+	 */
 	public static void main(String[] args) {
 		//Variable para el número
-		int num, numreves = 0;
+		int num = 0, numreves = 0;
 		
 		//Variables para número del revés
 		int cont1=10;
@@ -17,11 +20,18 @@ public class Ejercicio10 {
 		//Scanner para leer del teclado
 		Scanner sc = new Scanner(System.in);
 		
-		//Pregunto por el número
-		System.out.println("Introduzca un número de 0-9999");
-		
-		//Leo del teclado
-		num = sc.nextInt();
+		do {
+			try {
+				//Pregunto por el número
+				System.out.println("Introduzca un número de 0-9999");
+				
+				//Leo del teclado
+				num = sc.nextInt();
+			} catch (InputMismatchException e) {
+				System.out.println("Valor introudcido no válido");
+				sc.next();
+			}
+		} while (num<0||num>9999);
 		
 		//Compuebo si es capicua
 		if(num>=0 && num<=9999) {

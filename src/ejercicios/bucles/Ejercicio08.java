@@ -1,21 +1,31 @@
 package ejercicios.bucles;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio08 {
-
+	/*
+	 * 
+	 */
 	public static void main(String[] args) {
 		//Variable para número, numero mayor y contador para fallos y numeros introducidos
-		int num, mayor, fallos=0, numeros=0;
+		int num = 1, mayor, fallos=0, numeros=0;
 		
 		//Scanner para leer del teclado
 		Scanner sc = new Scanner(System.in);
 		
-		//Pregunto por el número
-		System.out.println("Introduce un número inicial:");
-		
-		//Leo del teclado
-		num=sc.nextInt();
+		do {
+			try {
+				//Pregunto por el número
+				System.out.println("Introduce un número inicial:");
+				
+				//Leo del teclado
+				num=sc.nextInt();
+			} catch (InputMismatchException e) {
+				System.out.println("Valor introudcido no válido");
+				sc.next();
+			}
+		} while (num<0);
 		
 		//Asigno un valor al mayor
 		mayor=num;
