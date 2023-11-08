@@ -52,7 +52,6 @@ public class Ejercicio05 {
 		
 		//Calculo el minimo comun divisor
 		for(int i=num1; i<=num1*num2; i++) {
-			System.out.println(i);
 			if(i%num1==0) {
 				if(i%num2==0) {
 					mcm=i;
@@ -61,12 +60,8 @@ public class Ejercicio05 {
 			}
 		}
 		
-		//Muestro el mcd
-		if(mcm==0) {
-			System.out.println("Estos dos número no tienen máximo común divisor");
-		} else {
-			System.out.println("El mínimo común múltiplo es " + mcm);
-		}
+		//Muestro el mcm
+		System.out.println("El mínimo común múltiplo es " + mcm);
 		
 		//Cierro el Scanner
 		sc.close();

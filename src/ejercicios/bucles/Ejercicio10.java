@@ -4,8 +4,19 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio10 {
-	/*
-	 * 
+	/* Introduzco: 1| Espero: | Resultado:
+	 * Introduzco: 11| Espero: | Resultado:
+	 * Introduzco: 12| Espero: | Resultado:
+	 * Introduzco: 121| Espero: | Resultado:
+	 * Introduzco: 111| Espero: | Resultado:
+	 * Introduzco: 123| Espero: | Resultado:
+	 * Introduzco: 1111| Espero: | Resultado:
+	 * Introduzco: 1221| Espero: | Resultado:
+	 * Introduzco: 1231| Espero: | Resultado:
+	 * Introduzco: 1223| Espero: | Resultado:
+	 * Introduzco: 1234| Espero: | Resultado:
+	 * Introduzco: -1| Espero: | Resultado:
+	 * Introduzco: 10000| Espero: | Resultado:
 	 */
 	public static void main(String[] args) {
 		//Variable para el número

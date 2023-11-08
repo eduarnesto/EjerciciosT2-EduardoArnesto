@@ -4,8 +4,9 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio08 {
-	/*
-	 * 
+	/* Introduzco: | Espero: | Resultado:
+	 * Introduzco: | Espero: | Resultado:
+	 * Introduzco: | Espero: | Resultado:
 	 */
 	public static void main(String[] args) {
 		//Variable para número, numero mayor y contador para fallos y numeros introducidos
