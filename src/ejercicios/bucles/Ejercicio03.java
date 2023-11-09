@@ -9,7 +9,7 @@ public class Ejercicio03 {
 	 */
 	public static void main(String[] args) {
 		//Variable para guardar el numero
-		int num = 0;
+		int num = -1;
 		
 		//Variable para guardar las líneas
 		String espacio = "", asterisco = "";

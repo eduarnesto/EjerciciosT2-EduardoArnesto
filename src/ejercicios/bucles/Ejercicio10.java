@@ -4,26 +4,26 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio10 {
-	/* Introduzco: 1| Espero: | Resultado:
-	 * Introduzco: 11| Espero: | Resultado:
-	 * Introduzco: 12| Espero: | Resultado:
-	 * Introduzco: 121| Espero: | Resultado:
-	 * Introduzco: 111| Espero: | Resultado:
-	 * Introduzco: 123| Espero: | Resultado:
-	 * Introduzco: 1111| Espero: | Resultado:
-	 * Introduzco: 1221| Espero: | Resultado:
-	 * Introduzco: 1231| Espero: | Resultado:
-	 * Introduzco: 1223| Espero: | Resultado:
-	 * Introduzco: 1234| Espero: | Resultado:
-	 * Introduzco: -1| Espero: | Resultado:
-	 * Introduzco: 10000| Espero: | Resultado:
+	/* Introduzco: 1| Espero: true| Resultado: true
+	 * Introduzco: 11| Espero: true | Resultado: true
+	 * Introduzco: 12| Espero: false | Resultado: false
+	 * Introduzco: 121| Espero: true | Resultado: true
+	 * Introduzco: 111| Espero: true | Resultado: true
+	 * Introduzco: 123| Espero: false | Resultado: false
+	 * Introduzco: 1111| Espero: true | Resultado: true
+	 * Introduzco: 1221| Espero: true | Resultado: true
+	 * Introduzco: 1231| Espero: false | Resultado: false
+	 * Introduzco: 1223| Espero: false | Resultado: false
+	 * Introduzco: 1234| Espero: false | Resultado: false
+	 * Introduzco: -1| Espero: pide de nuevo un número  | Resultado: pide de nuevo un número
+	 * Introduzco: 10000| Espero: pide de nuevo un número  | Resultado: pide de nuevo un número
 	 */
 	public static void main(String[] args) {
 		//Variable para el número
-		int num = 0, numreves = 0;
+		int num = -1, numreves = 0;
 		
 		//Variables para número del revés
-		int cont1=10;
+		int aux=10;
 		
 		//Variable para saber si es capicúa
 		boolean capicua = false;
@@ -45,21 +45,16 @@ public class Ejercicio10 {
 		} while (num<0||num>9999);
 		
 		//Compuebo si es capicua
-		if(num>=0 && num<=9999) {
-			
-			for (int i=1; i<=num; i=i*10) {
-				numreves=numreves*10;
-				numreves+=num%cont1/i;
-				cont1=cont1*10;
-			}
-			
-			if(num==numreves) {
-				capicua=true;
-			}
-			System.out.println("¿El número introducido es válido?: " + capicua);
-		} else {
-			System.out.println("Valor introducido no válido");
+		for (int i=1; i<=num; i=i*10) {
+			numreves=numreves*10;
+			numreves+=num%aux/i;
+			aux=aux*10;
 		}
+		
+		if(num==numreves) {
+			capicua=true;
+		}
+		System.out.println("¿El número introducido es capicúa?: " + capicua);
 		
 		//Cierro el Scanner
 		sc.close();
