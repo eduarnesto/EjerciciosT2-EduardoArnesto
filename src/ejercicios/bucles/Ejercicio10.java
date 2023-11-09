@@ -22,7 +22,7 @@ public class Ejercicio10 {
 		//Variable para el número
 		int num = -1, numreves = 0;
 		
-		//Variables para número del revés
+		//Variables para auxiliar
 		int aux=10;
 		
 		//Variable para saber si es capicúa
