@@ -5,7 +5,8 @@ import java.util.Scanner;
 
 public class Ejercicio07 {
 	/* Introduzco: | Espero: | Resultado: 
-	 * 
+	 * Introduzco: | Espero: | Resultado: 
+	 * Introduzco: | Espero: | Resultado: 
 	 */
 	public static void main(String[] args) {
 		//Variable para guardar el numero
