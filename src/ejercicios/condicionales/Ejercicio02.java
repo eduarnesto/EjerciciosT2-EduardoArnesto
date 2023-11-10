@@ -3,10 +3,10 @@ package ejercicios.condicionales;
 import java.util.Scanner;
 
 public class Ejercicio02 {
-	/* Introduzco: | Espero: | Resultado: 
-	 * Introduzco: | Espero: | Resultado: 
-	 * Introduzco: | Espero: | Resultado: 
-	 * Introduzco: | Espero: | Resultado: 
+	/* Introduzco: 00000023| Espero: T| Resultado: T 
+	 * Introduzco: 00000022| Espero: E| Resultado: E
+	 * Introduzco: -1| Espero: Valor introducido no válido| Resultado: Valor introducido no válido
+	 * Introduzco: 10000000| Espero: Valor introducido no válido| Resultado: Valor introducido no válido
 	 */
 
 		public static void main(String[] args) {

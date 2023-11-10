@@ -3,8 +3,18 @@ package ejercicios.condicionales;
 import java.util.Scanner;
 
 public class Ejercicio07 {
-	/*
-	 * 
+	/* Introduzco: 2, 2, 2| Espero: 2:2:3| Resultado: 2:2:3
+	 * Introduzco: 2, 2, 59| Espero: 2:3:0| Resultado: 2:3:0
+	 * Introduzco: 2, 59, 59| Espero: 3:0:0| Resultado: 3:0:0
+	 * Introduzco: 23, 59, 59| Espero: 0:0:0| Resultado: 0:0:0
+	 * Introduzco: 23, 23, 61| Espero: Valores introducidos no válidos| Resultado: Valores introducidos no válidos
+	 * Introduzco: 23, 23, -61| Espero: Valores introducidos no válidos| Resultado: Valores introducidos no válidos
+	 * Introduzco: 23, 230, 2| Espero: Valores introducidos no válidos| Resultado: Valores introducidos no válidos
+	 * Introduzco: 23, -61, 2| Espero: Valores introducidos no válidos| Resultado: Valores introducidos no válidos
+	 * Introduzco: 23, 230, 2| Espero: Valores introducidos no válidos| Resultado: Valores introducidos no válidos
+	 * Introduzco: 23, -61, 2| Espero: Valores introducidos no válidos| Resultado: Valores introducidos no válidos
+	 * Introduzco: 25, 23, 1| Espero: Valores introducidos no válidos| Resultado: Valores introducidos no válidos
+	 * Introduzco: -25, 23, 1| Espero: Valores introducidos no válidos| Resultado: Valores introducidos no válidos
 	 */
 	public static void main(String[] args) {
 		//Variable para los horas, minutos y segundos
@@ -50,10 +60,9 @@ public class Ejercicio07 {
 				}
 			}
 			System.out.println(horas + ":" + min + ":" + segundos);
-			
-			//Cierro el Scanner
-			sc.close();
 		}
+		//Cierro el Scanner
+		sc.close();
 	}
 
 }

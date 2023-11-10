@@ -4,15 +4,12 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio07 {
-	/*
+	/* Introduzco: | Espero: | Resultado: 
 	 * 
 	 */
 	public static void main(String[] args) {
 		//Variable para guardar el numero
 		int num = 0;
-		
-		//Variable para guardar las líneas
-		String linea="";
 		
 		//Scanner para leer del teclado
 		Scanner sc = new Scanner(System.in);
@@ -32,15 +29,13 @@ public class Ejercicio07 {
 		
 		//Muestro la pirámide de números
 		for(int i=1; i<=num; i++) {
-			int j;
-			for(j=1; j<=i; j++) {
-				linea+=j;
+			for(int j=1; j<=i; j++) {
+				System.out.print(j);
 			}
-			for(int k=j-2; k>=1;k--) {
-				linea+=k;
+			for(int k=i-1; k>=1;k--) {
+				System.out.print(k);
 			}
-			System.out.println(linea);
-			linea="";
+			System.out.println();
 		}
 		
 		//Cierro el scanner

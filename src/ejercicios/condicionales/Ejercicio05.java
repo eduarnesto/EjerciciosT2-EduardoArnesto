@@ -3,8 +3,9 @@ package ejercicios.condicionales;
 import java.util.Scanner;
 
 public class Ejercicio05 {
-	/*
-	 * 
+	/* Introduzco: 1| Espero: El absoluto de 1 es 1| Resultado: El absoluto de 1 es 1
+	 * Introduzco: -1| Espero: El absoluto de -1 es 1| Resultado: El absoluto de -1 es 1
+	 * Introduzco: 0| Espero: El absoluto de 0 es 0| Resultado: El absoluto de 0 es 0
 	 */
 	public static void main(String[] args) {
 		//Variable para número y valor absoluto

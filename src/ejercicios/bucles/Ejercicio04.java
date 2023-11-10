@@ -4,7 +4,9 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio04 {
-	/*
+	/* Introduzco: 50, 25| Espero: El máximo común divisor es  25| Resultado: El máximo común divisor es  25
+	 * Introduzco: 25, 50| Espero: El máximo común divisor es 25| Resultado: El máximo común divisor es  25
+	 * Introduzco: 17, 2| Espero: Estos dos número no tienen máximo común divisor| Resultado: Estos dos número no tienen máximo común divisor
 	 * 
 	 */
 	public static void main(String[] args) {
@@ -41,10 +43,11 @@ public class Ejercicio04 {
 		} while (num2<=0);
 		
 		//Calculo el maximo comun divisor
-		for(int i=2; i<=num1; i++) {
+		for(int i=num1; i>=2; i--) {
 			if(num1%i==0) {
 				if(num2%i==0) {
 					mcd=i;
+					break;
 				}
 			}
 		}

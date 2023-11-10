@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio02 {
-	/*
+	/* Introduzco: | Espero: | Resultado: 
 	 * 
 	 */
 	public static void main(String[] args) {

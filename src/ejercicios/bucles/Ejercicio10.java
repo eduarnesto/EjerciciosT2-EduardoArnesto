@@ -34,7 +34,7 @@ public class Ejercicio10 {
 		do {
 			try {
 				//Pregunto por el número
-				System.out.println("Introduzca un número de 0-9999");
+				System.out.println("Introduzca un número mayor de 0");
 				
 				//Leo del teclado
 				num = sc.nextInt();
@@ -42,7 +42,7 @@ public class Ejercicio10 {
 				System.out.println("Valor introudcido no válido");
 				sc.next();
 			}
-		} while (num<0||num>9999);
+		} while (num<0);
 		
 		//Compuebo si es capicua
 		for (int i=1; i<=num; i=i*10) {

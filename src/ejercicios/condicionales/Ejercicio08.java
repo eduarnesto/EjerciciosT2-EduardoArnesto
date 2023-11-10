@@ -3,8 +3,8 @@ package ejercicios.condicionales;
 import java.util.Scanner;
 
 public class Ejercicio08 {
-	/*
-	 * 
+	/* Introduzco: | Espero: | Resultado: 
+	 * Introduzco: | Espero: | Resultado: 
 	 */
 	public static void main(String args[]) {
 		//Variable para el precio, para el descuento y para el precio por kilómetro
@@ -32,12 +32,15 @@ public class Ejercicio08 {
 		precio=distancia*kilometraje;
 		
 		//Compruebo si se aplica descuento
-		if(distancia>800&&dias>7) {
-			precio*=descuento;
+		if(distancia<0||dias<0) {
+			System.out.println("Valores introducidos no válidos");
+		} else {
+			if(distancia>800&&dias>7) {
+				precio*=descuento;
+			}
+			//Muestro el precio
+			System.out.println("El precio es " + precio);
 		}
-		
-		//Muestro el precio
-		System.out.println("El precio es " + precio);
 		
 		//Cierro el Scanner
 		sc.close();

@@ -3,7 +3,7 @@ package ejercicios.condicionales;
 import java.util.Scanner;
 
 public class Ejercicio04 {
-	/*
+	/* Introduzco: | Espero: | Resultado: 
 	 * 
 	 */
 	public static void main(String[] args) {

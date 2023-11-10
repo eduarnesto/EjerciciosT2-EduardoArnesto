@@ -4,9 +4,11 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Ejercicio06 {
-	/*
-	 * 
+
+	/* Introduzco: Valor correcto| Espero: El resultado es correcto| Resultado: El resultado es correcto
+	 * Introduzco: Valor incorrecto| Espero: El resultado es erróneo| Resultado: El resultado es erróneo
 	 */
+	
 	public static void main(String[] args) {
 		//Variable para la respuesta
 		int num1, num2, res;
