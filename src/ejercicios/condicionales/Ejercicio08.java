@@ -3,8 +3,8 @@ package ejercicios.condicionales;
 import java.util.Scanner;
 
 public class Ejercicio08 {
-	/* Introduzco: | Espero: | Resultado: 
-	 * Introduzco: | Espero: | Resultado: 
+	/* Introduzco: 4, 4| Espero: El precio es 10| Resultado: El precio es 10
+	 * Introduzco: 900, 8| Espero: El precio es 1575| Resultado: El precio es 1575
 	 */
 	public static void main(String args[]) {
 		//Variable para el precio, para el descuento y para el precio por kilómetro

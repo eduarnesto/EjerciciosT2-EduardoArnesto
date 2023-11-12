@@ -4,8 +4,9 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio02 {
-	/* Introduzco: | Espero: | Resultado: 
-	 * 
+	/* Introduzco: 3| Espero: Entre 1 y 3 hay 1 números primos| Resultado: Entre 1 y 3 hay 1 números primos
+	 * Introduzco: 100| Espero: Entre 1 y 100 hay 25 números primos| Resultado: Entre 1 y 100 hay 25 números primos
+	 * Introduzco: -3| Espero: Vuelve a pedir un número| Resultado:  Vuelve a pedir un número
 	 */
 	public static void main(String[] args) {
 		//Variable para guardar el numero y los numeros primos

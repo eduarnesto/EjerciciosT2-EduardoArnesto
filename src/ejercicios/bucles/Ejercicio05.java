@@ -4,8 +4,10 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio05 {
-	/* Introduzco: | Espero: | Resultado: 
-	 * 
+	/* Introduzco: 50, 25| Espero: El mínimo común múltiplo es  50| Resultado: El mínimo común múltiplo es  50
+	 * Introduzco: 25, 50| Espero: El mínimo común múltiplo es 50| Resultado: El mínimo común múltiplo es  50
+	 * Introduzco: 17, 2| Espero: El mínimo común múltiplo es 14| Resultado: El mínimo común múltiplo es 14
+	 * Introduzco: -5 | Espero: Pregunta el número otra vez | Resultado: Pregunta el número otra vez
 	 */
 	public static void main(String[] args) {
 		//Variable para los dos número y el minimo comun multiplo

@@ -3,8 +3,11 @@ package ejercicios.condicionales;
 import java.util.Scanner;
 
 public class Ejercicio04 {
-	/* Introduzco: | Espero: | Resultado: 
-	 * 
+	/* Introduzco: 11| Espero: El número es: Once| Resultado: El número es: Once
+	 * Introduzco: 16| Espero: El número es: Dieciseis| Resultado: El número es: Dieciseis
+	 * Introduzco: 1| Espero: El número es: Uno| Resultado: El número es: Uno
+	 * Introduzco: 30| Espero: El número es: Treinta| Resultado:El número es: Treinta
+	 * Introduzco: 61| Espero: El número es: Sesenta y uno| Resultado: El número es: Sesenta y uno
 	 */
 	public static void main(String[] args) {
 		//Variable para el número

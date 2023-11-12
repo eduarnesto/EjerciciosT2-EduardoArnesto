@@ -7,6 +7,7 @@ public class Ejercicio04 {
 	/* Introduzco: 50, 25| Espero: El máximo común divisor es  25| Resultado: El máximo común divisor es  25
 	 * Introduzco: 25, 50| Espero: El máximo común divisor es 25| Resultado: El máximo común divisor es  25
 	 * Introduzco: 17, 2| Espero: Estos dos número no tienen máximo común divisor| Resultado: Estos dos número no tienen máximo común divisor
+	 * Introduzco: -5 | Espero: Pregunta el número otra vez | Resultado: Pregunta el número otra vez
 	 */
 	public static void main(String[] args) {
 		//Variable para los dos número y el maximo comun divisor

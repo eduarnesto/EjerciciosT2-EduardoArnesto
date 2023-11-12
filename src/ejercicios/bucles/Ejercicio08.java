@@ -4,10 +4,10 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio08 {
-	/* Introduzco: 1, 0| Espero: Total de números introducidos: 1 Números fallados: 0| Resultado:
-	 * Introduzco: 1, 10, 0| Espero: Total de números introducidos: 2 Números fallados: 0| Resultado:
-	 * Introduzco: 1, 10, 1, 0| Espero: Total de números introducidos: 3 Números fallados: 1| Resultado:
-	 * Introduzco: 0| Espero: Total de números introducidos: 0 Números fallados: 0| Resultado:
+	/* Introduzco: 1, 0| Espero: Total de números introducidos: 1 Números fallados: 0| Resultado: Total de números introducidos: 1 Números fallados: 0
+	 * Introduzco: 1, 10, 0| Espero: Total de números introducidos: 2 Números fallados: 0| Resultado: Total de números introducidos: 2 Números fallados: 0
+	 * Introduzco: 1, 10, 1, 0| Espero: Total de números introducidos: 3 Números fallados: 1| Resultado: Total de números introducidos: 3 Números fallados: 1
+	 * Introduzco: 0| Espero: Total de números introducidos: 0 Números fallados: 0| Resultado: Total de números introducidos: 0 Números fallados: 0
 	 */
 	public static void main(String[] args) {
 		//Variable para número, numero mayor y contador para fallos y numeros introducidos

@@ -4,9 +4,15 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio07 {
-	/* Introduzco: | Espero: | Resultado: 
-	 * Introduzco: | Espero: | Resultado: 
-	 * Introduzco: | Espero: | Resultado: 
+	/* Introduzco: 2| Espero: 
+	 * 1
+	 * 121
+	 * 12321
+	 * Resultado:
+	 * 1
+	 * 121
+	 * 12321 
+	 * Introduzco: -5 | Espero: Pregunta el número otra vez | Resultado: Pregunta el número otra vez
 	 */
 	public static void main(String[] args) {
 		//Variable para guardar el numero
